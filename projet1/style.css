@@ -1,0 +1,74 @@
+body {
+    background-color: #9c9a9a;
+}
+.container .title {
+    text-align: center;
+    margin-bottom: 40px;
+} 
+.container .title h2 {
+    text-align: center;
+    margin-bottom: 10px;
+} 
+.container .title .underline {
+    width: 70px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 0 auto;
+}
+.container .review {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #eee;
+
+}
+.container .review h4 {
+    font-size: 22px;
+    margin: 0;
+    margin-top: 20px;
+}
+.container .review #job {
+    color: blue;
+}
+.container .review #info {
+    color: #555;
+
+}
+.container .review .img-container {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.container .review .img-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+}
+.container .review .prev-btn, .container .review .next-btn {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.container .review .prev-btn:hover, .container .review .next-btn:hover {
+    transform: translateY(-2px);
+    background-color: rgba(0, 0, 109, 0.801);
+} 
+.container .review .random-btn {
+    margin-top: 10px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
