@@ -35,9 +35,7 @@ body {
 .plus-icon i {  
     color: rgb(25, 235, 25);
 }
-.minus-icon {
-    display: none;
-}
+
 .minus-icon i {
     color: red;
 }
@@ -56,8 +54,11 @@ body {
     transition: .3s;
     display: none;
 }
-.how-text .question-text {
+.show-text .question-text {
     display: block;
+}
+.minus-icon {
+    display: none;
 }
 .show-text .minus-icon {
     display: inline;
